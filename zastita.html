@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<meta charset="UTF-8">
+	
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript">    
+	/* javascript za prikaz dugmeta - povratak na vrh - u donjem desnom uglu */
+	$(document).ready(function() {
+		$(window).on("scroll", function() {
+			var odVrha = $(window).scrollTop();
+			$("#topLink").toggleClass("down", (odVrha > 300));
+		});
+	});
+		
+	</script>
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="fix">
+	<div id="header">
+	<p>	RADIOAKTIVNO
+		ZAGAĐIVANJE I ZAŠTITA</p>
+	</div><!--end header -->
+	<div id="nav" class="negativ">
+			<a href="index.php" class="dugme" class="negativ">Pojam i izvori</a>	
+			<a href="zastita.html" class="dugme">Zaštita</a>
+	</div><!--end nav -->
+	</div><!--end fix -->
+	<div id="main2">
+	<h2>KONTROLA I ZAŠTITA OD RADIJACIJE</h2>
+		<p>Treba istaći da nema beopasnih zračnja, ali i da se posledice zračenja mogu javiti tek posle dužeg
+		vremena ili nasleđem, u narednim generacijama. Razumljivo je da se čovek može osloboditi uticaja svih
+		zračenja, pre svega onih koja potiču iz prirode. Međutim, za lica koja su profesionalno izložena manjim
+		ili većim dozama zračenja treba preduzeti sve mere da bi se smanjili rizik i štetne posledice. Radi bolje
+		kontrole, kod lica profesionalno izloženih dejstvu zračenjaobično se određuju maksimalno dozvoljene
+		doze. Prilikom procene rizika od izloženosti treba voditi računa i o načinima apsorbcije (udisanjem,
+		preko kože ili preko sistema za varenje), da bi se preduzele odgovarajuće mere predostrožnosti.
+		Radijaciona zaštita se ostvaruje u okviru dva osnovna vida – zaštite od ozračivanja i zaštite od
+		radioaktivne kontaminacije.</p>
+		<p>Zaštita od spoljašnjeg ozračavanja se, u principu, sprovodi smanjivanjem doze zračenja na najmanju
+		moguću meru. Ovo se može postići: 1. vremenskom zaštitom (odn. što kraćim boravkom u blizini izvora
+		zračenja), 2. daljinskom zaštitom (boravkom na što većem rastojanju od izvora) ili 3. zaštitom pomoću
+		apsorbera (korišćenjem debljih zaštitnih slojeva, od zemlje, betona, olova i sl.).</p>
+		<p>Zaštita od radioaktivne kontaminacije (zagađivanja) sastoji se u preduzimanju odgovarajućih mera da
+		radioaktivne supstance ne dođu u neposredan kontakt sa živim organizmima i ne prodru u okolnu životnu
+		sredinu.</p>
+		<p>Pošto čovek nije u stanju nijednim čulom da registruje zračenje, neophodno je da se pri radu sa
+		radioaktivnim materijama uvedu mere redovne kontrole životne (monitoring sistem), ali i apsorbovanih
+		doza kod lica izloženih zračenju. Pored pomenutog, neophodno je koristiti ličnu opremu i uređaje zaštite,
+		a gde je to moguće treba izbegavati izlaganje ljudi dejstvu zračenja povećanjem primene automatizacije i
+		robotike.</p> 
+		<img src="zastita2.jpeg">
+		<img src="zastita1.jpeg">
